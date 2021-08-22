@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D1A11621-34BF-4234-9541-4576F6A8BC47}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Corruption.Psykers</RootNamespace>
+    <AssemblyName>Corruption.Psykers</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFramework>net472</TargetFramework>
+    <FileAlignment>512</FileAlignment>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\1.3\Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AbilityOpportunity.cs" />
+    <Compile Include="Command_PsyCastCorruption.cs" />
+    <Compile Include="CompAbilityEffect_AroundPsyker.cs" />
+    <Compile Include="CompAbilityEffect_GiveThought.cs" />
+    <Compile Include="CompAbilityEffect_Mutate.cs" />
+    <Compile Include="CompAbilityEffect_ReplacePart.cs" />
+    <Compile Include="CompAbilityEffect_SatisfyNeed.cs" />
+    <Compile Include="CompAbilityEffect_SpawnPawn.cs" />
+    <Compile Include="CompAbilityEffect_SpawnVortex.cs" />
+    <Compile Include="CompAbilityEffect_StunAdvanced.cs" />
+    <Compile Include="CompAbilityEffect_Teleport.cs" />
+    <Compile Include="AbilityCompProperties_AICast.cs" />
+    <Compile Include="CompDamageOnSpawn.cs" />
+    <Compile Include="CompProperties_AbilityEffectWithDurationAdvanced.cs" />
+    <Compile Include="CompProperties_Psyker.cs" />
+    <Compile Include="CompPsykerExtension.cs" />
+    <Compile Include="Comp_Weirdboy.cs" />
+    <Compile Include="Graphic_Vortex.cs" />
+    <Compile Include="HediffComp_AffectSkill.cs" />
+    <Compile Include="CompAbilityEffect_DirectDamage.cs" />
+    <Compile Include="CompAbilityEffect_GiveHediffSeverity.cs" />
+    <Compile Include="CompAbilityEffect_Growth.cs" />
+    <Compile Include="CompAbilityEffect_LightningStrike.cs" />
+    <Compile Include="CompAbilityEffect_PsyProjectile.cs" />
+    <Compile Include="CompAbilityEffect_SpawnBeam.cs" />
+    <Compile Include="CompAbilityEffect_SpawnRadial.cs" />
+    <Compile Include="CompImbuedAbility.cs" />
+    <Compile Include="HarmonyPatches.cs" />
+    <Compile Include="HediffComp_PostBuff.cs" />
+    <Compile Include="HediffComp_Shield.cs" />
+    <Compile Include="HediffComp_TemporaryRecruit.cs" />
+    <Compile Include="HediffDefOf.cs" />
+    <Compile Include="Hediff_SummonedEntity.cs" />
+    <Compile Include="InfernoBeam.cs" />
+    <Compile Include="JobDriver_MeditateXP.cs" />
+    <Compile Include="JobDriver_WaitCastPower.cs" />
+    <Compile Include="JobGiver_CastAbility.cs" />
+    <Compile Include="LevitatingBoulder.cs" />
+    <Compile Include="MoteDefOf.cs" />
+    <Compile Include="PsykerAIExtension.cs" />
+    <Compile Include="PsykerCast.cs" />
+    <Compile Include="CompPsyker.cs" />
+    <Compile Include="PsykerCastAoE.cs" />
+    <Compile Include="PsykerClassDef.cs" />
+    <Compile Include="PsykerDisciplineDef.cs" />
+    <Compile Include="PsykerDisciplineDefOf.cs" />
+    <Compile Include="PsykerDisciplineCategory.cs" />
+    <Compile Include="PsykerProjectiles.cs" />
+    <Compile Include="PsykerStoryTrackerComponent.cs" />
+    <Compile Include="PsykerUtility.cs" />
+    <Compile Include="ScenPart_PsykerStart.cs" />
+    <Compile Include="Thought_MemoryPsionic.cs" />
+    <Compile Include="Verb_CastPsykerAbility.cs" />
+    <Compile Include="Window_Psyker.cs" />
+    <Compile Include="Window_PsykerDiscipline.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Output\Assemblies\" />
+    <Folder Include="Output\Textures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Output\Defs\AbilityDefs\PsykerAbilitiesBase.xml" />
+    <Content Include="Output\Defs\AbilityDefs\PsykerAbilities_ChaosUndivided.xml" />
+    <Content Include="Output\Defs\AbilityDefs\PsykerAbilitiesImperium.xml" />
+    <Content Include="Output\Defs\AbilityDefs\PsykerAbilities_Biomancy.xml" />
+    <Content Include="Output\Defs\AbilityDefs\PsykerAbilities_Divination.xml" />
+    <Content Include="Output\Defs\AbilityDefs\PsykerAbilities_Nurgle.xml" />
+    <Content Include="Output\Defs\AbilityDefs\PsykerAbilities_Orks.xml" />
+    <Content Include="Output\Defs\AbilityDefs\PsykerAbilities_Pyromancy.xml" />
+    <Content Include="Output\Defs\AbilityDefs\PsykerAbilities_Slaanesh.xml" />
+    <Content Include="Output\Defs\AbilityDefs\PsykerAbilities_Telekinesis.xml" />
+    <Content Include="Output\Defs\AbilityDefs\PsykerAbilities_Telepathy.xml" />
+    <Content Include="Output\Defs\AbilityDefs\PsykerAbilities_Tzeentch.xml" />
+    <Content Include="Output\Defs\HediffDefs\AbilityHediffDefs.xml" />
+    <Content Include="Output\Defs\HediffDefs\Divination_Hediffs.xml" />
+    <Content Include="Output\Defs\HediffDefs\PsykerHediffDefs.xml" />
+    <Content Include="Output\Defs\HediffDefs\SummoningHediffs.xml" />
+    <Content Include="Output\Defs\HediffDefs\TelekineHediffs.xml" />
+    <Content Include="Output\Defs\HediffDefs\TelepathHediffs.xml" />
+    <Content Include="Output\Defs\Misc\ApparelLayerDefs\ApparelLayerDefs.xml" />
+    <Content Include="Output\Defs\PawnKindDefs\PawnKinds_Chaos.xml" />
+    <Content Include="Output\Defs\PawnKindDefs\PawnKinds_Imperium.xml" />
+    <Content Include="Output\Defs\PawnKindDefs\PawnKinds_NativePsykers.xml" />
+    <Content Include="Output\Defs\PsykerClassDefs\GenericPsykers.xml" />
+    <Content Include="Output\Defs\PsykerDisciplineDefs\PsykerDisciplinesOrks.xml" />
+    <Content Include="Output\Defs\PsykerDisciplineDefs\PsykerDisciplinesChaos.xml" />
+    <Content Include="Output\Defs\PsykerDisciplineDefs\PsykerDisciplinesImperial.xml" />
+    <Content Include="Output\Defs\RecipeDefs\Recipes_Psyker.xml" />
+    <Content Include="Output\Defs\ResearchDefs\Research.xml" />
+    <Content Include="Output\Defs\ResearchDefs\ResearchTabs.xml" />
+    <Content Include="Output\Defs\ScenPartDefs\ScenParts.xml" />
+    <Content Include="Output\Defs\SoundDefs\Ability_Oneshots.xml" />
+    <Content Include="Output\Defs\SoundDefs\PsykerSounds.xml" />
+    <Content Include="Output\Defs\ThingCategorieDefs\ThingCategories.xml" />
+    <Content Include="Output\Defs\ThingDefs\Motes.xml" />
+    <Content Include="Output\Defs\ThingDefs\Things_Beam.xml" />
+    <Content Include="Output\Defs\ThingDefs\Things_Resources.xml" />
+    <Content Include="Output\Defs\ThingDefs\Things_Weapons.xml" />
+    <Content Include="Output\Defs\ThingDefs\Things_Apparel.xml" />
+    <Content Include="Output\Defs\ThingDefs\Things_Buildings.xml" />
+    <Content Include="Output\Defs\ThingDefs\Vortex.xml" />
+    <Content Include="Output\Defs\ThoughtDefs\Thoughts_Psykers.xml" />
+    <Content Include="Output\Defs\ThoughtDefs\Thoughts_Telepathy.xml" />
+    <Content Include="Output\Defs\TraitDefs\Traits_Spectrum.xml" />
+    <Content Include="Output\Languages\English\Keyed\Commands.xml" />
+    <Content Include="Output\Languages\English\Keyed\Psykers.xml" />
+    <Content Include="Output\Patches\CorePatches.xml" />
+    <Content Include="Output\Patches\Patches_AI.xml" />
+    <Content Include="Output\Patches\Patches_Psyker.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.3.3076" />
+    <PackageReference Include="Lib.Harmony" Version="2.1.1" />
+    <PackageReference Include="TaskPubliciser">
+      <Version>1.0.3</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Corruption.Core\Source\Corruption.Core\Corruption.Core-1.3\Corruption.Core-1.3.csproj">
+      <Private>false</Private>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+    </ProjectReference>
+  </ItemGroup>
+  <Target Name="MyCode" BeforeTargets="UpdateReferences">
+    <PropertyGroup>
+      <AssemblyCSharp>$(PkgKrafs_Rimworld_Ref)\ref\net472\Assembly-CSharp.dll</AssemblyCSharp>
+      <PubliciseOutputPath>$(PkgKrafs_Rimworld_Ref)\ref\net472\</PubliciseOutputPath>
+      <AssemblyCSharp_Publicised>$(PubliciseOutputPath)Assembly-CSharp_publicised.dll</AssemblyCSharp_Publicised>
+    </PropertyGroup>
+    <Publicise TargetAssemblyPath="$(AssemblyCSharp)" OutputPath="$(PubliciseOutputPath)" Condition="Exists('$(AssemblyCSharp)')" />
+    <ItemGroup>
+      <Reference Include="$(AssemblyCSharp_Publicised)">
+        <SpecificVersion>false</SpecificVersion>
+        <HintPath>$(AssemblyCSharp_Publicised)</HintPath>
+        <Implicit>true</Implicit>
+        <Private>false</Private>
+      </Reference>
+    </ItemGroup>
+  </Target>
+  <Target Name="UpdateReferences" AfterTargets="ResolveLockFileReferences">
+    <ItemGroup>
+      <Reference Remove="$(PkgKrafs_Rimworld_Ref)\ref\net472\Assembly-CSharp.dll" />
+    </ItemGroup>
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup />
+</Project>
