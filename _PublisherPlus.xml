@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Configuration>
-  <Excluded>
-    <exclude>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Corruption.Pskyers\Source</exclude>
-  </Excluded>
+  <Title>[WH40k]Corruption: Psykers[Adopted]</Title>
+  <Excluded />
 </Configuration>
