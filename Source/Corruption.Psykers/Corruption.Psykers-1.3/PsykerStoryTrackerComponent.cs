@@ -17,7 +17,7 @@ namespace Corruption.Psykers
             var settings = LoadedModManager.GetMod<CorruptionMod>().GetSettings<ModSettings_Corruption>();
             foreach (var def in DefDatabase<ThingDef>.AllDefs.Where(x => x.race != null && x.race.Humanlike))
             {
-                if(def.comps.Any(x => x.compClass == typeof(CompSoul)))
+                if(def.comps.Any(x => x.compClass == typeof(CompSoul)) && !def.comps.Any(x => x.compClass == typeof(CompPsyker)))
                 {
                     var psyComp = new CompProperties_Psyker();
                     def.comps.Add(psyComp);
