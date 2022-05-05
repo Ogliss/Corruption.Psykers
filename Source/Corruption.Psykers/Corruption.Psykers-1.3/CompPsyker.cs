@@ -67,7 +67,6 @@ namespace Corruption.Psykers
             CorruptionPawnKindDef psykerKind = this.Pawn.kindDef as CorruptionPawnKindDef;
             if (psykerKind != null && psykerKind.affliction != null)
             {
-
                 PsykerClassDef psykerClass = GetPsykerClass(psykerKind);
                 if (psykerClass != null)
                 {
