@@ -893,7 +893,6 @@
   },
   "packageFolders": {
     "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -906,13 +905,11 @@
       "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Corruption.Psykers\\Source\\Corruption.Psykers\\Corruption.Psykers-1.2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net472"
@@ -924,6 +921,7 @@
       },
       "frameworks": {
         "net472": {
+          "targetAlias": "net472",
           "projectReferences": {
             "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Corruption.Core\\Source\\Corruption.Core\\Corruption.Core-1.2\\Corruption.Core-1.2.csproj": {
               "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Corruption.Core\\Source\\Corruption.Core\\Corruption.Core-1.2\\Corruption.Core-1.2.csproj"
@@ -939,6 +937,7 @@
     },
     "frameworks": {
       "net472": {
+        "targetAlias": "net472",
         "dependencies": {
           "Krafs.Rimworld.Ref": {
             "target": "Package",
@@ -955,7 +954,7 @@
             "version": "[1.0.3, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

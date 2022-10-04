@@ -37,8 +37,32 @@ Version: 0.51
 		</li>
 	</modDependencies>
 	<loadAfter>
-		<li>Ludeon.RimWorld.Royalty</li>
 		<li>brrainz.harmony</li>
+		<li>ludeon.rimworld</li>
+		<li>ludeon.rimworld.royalty</li>
+		<li>ludeon.rimworld.ideology</li>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>smashphil.neceros.srtsexpanded</li>
+		<li>CETeam.CombatExtended</li>
+		<li>Roolo.DualWield</li>
+		<li>Roolo.RunNGun</li>
+		<li>QX.AstraMilitarum</li>
+		<li>QX.AstraMilitarum.Factions</li>
+		<li>QX.AstraMilitarum.ServoSkull</li>
 		<li>CptOhu.CorruptionCore</li>
 	</loadAfter>
+	<loadBefore>
+		<li>CptVHOhu970.CorruptionWorship</li>
+		<li>Ogliss.AdMech.Armoury</li>
+		<li>Ogliss.AdMech.Xenobiologis</li>
+		<li>Ogliss.AdMech.Astartes</li>
+		<li>Ogliss.AdMech.Xenobiologis.Tau</li>
+		<li>Ogliss.AdMech.Xenobiologis.Orkz</li>
+		<li>Ogliss.AdMech.Xenobiologis.Eldar</li>
+		<li>Ogliss.AdMech.Xenobiologis.DarkEldar</li>
+		<li>Ogliss.AdMech.Xenobiologis.Chaos</li>
+		<li>Ogliss.AdMech.Xenobiologis.Necrons</li>
+		<li>Ogliss.AdMech.Xenobiologis.Tyranids</li>
+		<li>Archaon.Primarch</li>
+	</loadBefore>
 </ModMetaData>

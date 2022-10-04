@@ -210,8 +210,8 @@
         "type": "project",
         "framework": ".NETFramework,Version=v4.7.2",
         "dependencies": {
-          "Krafs.Rimworld.Ref": "1.3.3076",
-          "Lib.Harmony": "2.1.1"
+          "Krafs.Rimworld.Ref": "1.3.3389",
+          "Lib.Harmony": "2.2.1"
         },
         "compile": {
           "bin/placeholder/Corruption.Core.dll": {}
@@ -959,7 +959,7 @@
             "version": "[1.0.3, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
