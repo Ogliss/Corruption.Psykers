@@ -1,0 +1,10 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Corruption.Psykers\Source\Corruption.Psykers\Corruption.Psykers-1.4\obj\Debug\Corruption.Psykers-1.4.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Corruption.Psykers\Source\Corruption.Psykers\Corruption.Psykers-1.4\obj\Debug\Corruption.Psykers-1.4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Corruption.Psykers\Source\Corruption.Psykers\Corruption.Psykers-1.4\obj\Debug\Corruption.Psykers-1.4.AssemblyInfoInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Corruption.Psykers\Source\Corruption.Psykers\Corruption.Psykers-1.4\obj\Debug\Corruption.Psykers-1.4.AssemblyInfo.cs
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Corruption.Psykers\Source\Corruption.Psykers\Corruption.Psykers-1.4\obj\Debug\Corruption.Psykers-1.4.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Corruption.Psykers\Source\Corruption.Psykers\Corruption.Psykers-1.4\obj\Debug\Corruption.Psykers.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Corruption.Psykers\Source\Corruption.Psykers\Corruption.Psykers-1.4\obj\Debug\Corruption.Psykers.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Corruption.Psykers\1.4\Assemblies\Corruption.Psykers.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Corruption.Psykers\1.4\Assemblies\Corruption.Psykers.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Corruption.Psykers\Source\Corruption.Psykers\Corruption.Psykers-1.4\obj\Debug\Corruption.Psykers-1.4.csproj.CopyComplete
